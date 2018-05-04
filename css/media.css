@@ -1,0 +1,136 @@
+/* Великі екрани */
+
+@media only screen and (max-width: 1200px) {
+    .content-img {
+        width: 40%;
+    }
+}
+
+
+/* Ноутбуки */
+
+@media only screen and (max-width: 992px) {
+    .content-img {
+        width: 40%;
+    }
+    .content-aside ul a {
+        font-size: 1.3rem;
+    }
+	
+}
+
+
+/* Планшети */
+
+@media only screen and (max-width: 768px) {
+    .content-img {
+        width: 45%;
+    }
+    .col-sm-12 {
+        max-width: 75rem;
+        width: 100%;
+    }
+	.hidden-vs {
+		display: none !important
+	}
+    .container {
+        padding: 0;
+    }
+    .content-aside {
+        margin-top: 0;
+    }
+    .content-aside ul a {
+        font-size: 1.6rem;
+    }
+    .header-menu ul {
+        background-color: #409abd;
+        float: left;
+        width: 100%;
+        display: none;
+    }
+    .header-menu ul li {
+        display: inline;
+    }
+    .header-mobile {
+        display: block;
+    }
+}
+
+
+/* Телефони */
+
+@media only screen and (max-width: 480px) {
+    .content-img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+	.header-logo {
+		width: 40%;
+	}
+}
+
+
+/* Малі телефони */
+
+@media only screen and (max-width: 320px) {
+	body {
+		overflow-x: hidden;
+	}
+    .col-vs-12 {
+        max-width: 29rem;
+        width: 100%;
+    }
+	.header {
+        padding: 2rem;
+    }
+    .header-logo {
+        font-size: 3.2rem;
+        margin-left: 18%;
+		width: 90%;
+    }
+    .header-mobile img {
+        width: 50%;
+    }
+}
+
+/* Малі телефони */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Телефони */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Планшети */
+
+@media only screen and (min-width: 768px) {
+    .header-menu ul {
+        display: block!important
+    }
+}
+
+/* Ноутбуки */
+
+@media (min-width:768px) and (max-width:991px) {
+    .hidden-sm {
+        display: none !important
+    }
+}
+
+
+/* Великі екрани */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .hidden-md {
+        display: none !important
+    }
+}
+
+/* Дуже великі екрани */
+@media (min-width:1200px) {
+    .hidden-lg {
+        display: none !important
+    }
+}
